@@ -1,0 +1,36 @@
+"# robot-meu-timao"
+
+Abaixo está um guia passo a passo, claro e atualizado de como iniciar um projeto de automação com Robot Framework, usando Python + Browser Library (Playwright) — que hoje é o mais moderno e recomendado.
+
+✅ 1. Instalar Python
+
+Verifique se você tem o Python instalado:
+
+python --version
+
+
+Se não tiver, instale pelo site oficial:
+https://www.python.org/downloads/
+
+✅ 2. Criar a pasta do projeto
+mkdir projeto-robot
+cd projeto-robot
+
+✅ 3. Criar e ativar um ambiente virtual (recomendado)
+Windows:
+python -m venv venv
+venv\Scripts\activate
+
+Linux/Mac:
+python3 -m venv venv
+source venv/bin/activate
+
+✅ 4. Instalar Robot Framework
+pip install robotframework
+
+✅ 5. Instalar a Browser Library (usando Playwright)
+pip install robotframework-browser
+rfbrowser init
+
+
+Esse comando baixa os navegadores (Chromium, Firefox, WebKit).
