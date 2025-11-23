@@ -3,3 +3,8 @@ results/
 .env
 browser/
 .vscode/
+log.html
+output.xml
+report.html
+requirements.txt
+playwright-log.txt
