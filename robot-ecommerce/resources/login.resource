@@ -2,5 +2,4 @@
 Library    Browser
 
 *** Keywords ***
-Login sucessfull
-    Click    text=Login
+Acessar página
