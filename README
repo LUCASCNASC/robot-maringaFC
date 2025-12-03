@@ -34,5 +34,4 @@ rfbrowser init
 
 Esse comando baixa os navegadores (Chromium, Firefox, WebKit).
 
-- Criando cenários de teste com login.
-Documentando projeto.
+It is necessary to develop and specify the scenarios.
